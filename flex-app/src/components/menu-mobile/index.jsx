@@ -10,7 +10,8 @@ const MenuMobile = () => {
       </div>
       <div>
         <a
-          href="/"
+          target="_blank"
+          href="https://github.com/ChristopherHauschild/flexbox-app-react"
           className="transition ease-in-out duration-700 text-2xl px-8 py-1 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white"
         >
           Código
