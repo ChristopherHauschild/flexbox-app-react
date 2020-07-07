@@ -1,10 +1,10 @@
 import React from "react";
 
 const  Quantity = (props) => {
-  const { cols, label, id, onTest, quantity } = props;
+  const { cols, label, id, onChangeQuality, quantity } = props;
 
   const handleQuantity = (event) => {
-    onTest(+event.target.value)
+    onChangeQuality(+event.target.value)
   }
 
   return (
