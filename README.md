@@ -22,9 +22,9 @@ desenvolvimento da interface da aplicação, se deu pelo desejo de me aprimorar 
 
 Realize o download ou clone do repositório na sua máquina. Na pasta raíz, rode o comando `yarn` ou `npm install` para instalar as dependências do projeto.
 
-Após, rode o comando `yarn start` ou `npm start` para ver a aplicação em execução em `http://localhost:3000`
+Após, rode o comando `yarn start` ou `npm start` para ver a aplicação em execução em `http://localhost:3000`. <br /> <br />
 
-### Critícas e sugestões são sempre bem-vindas =).
+#### Critícas e sugestões são sempre bem-vindas =).
 
 <hr>
 
