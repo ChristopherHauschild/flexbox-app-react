@@ -6,12 +6,14 @@ import Display from "../display";
 
 const Form = () => {
   const[quantity, setQuantity] = useState(1)
+  const[selectedBlock, setSelectedBlock] = useState(1)
   const[display, setDisplay] = useState('flex')
   const[flexDirection, setFlexDirection] = useState('row')
   const[flexWrap, setFlexWrap] = useState('wrap')
   const[justifyContent, setJustifyContent] = useState('flex-start')
   const[alignContent, setAlignContent] = useState('flex-start')
-  const[alignItems, setAlignItems] = useState('flex-start')
+  const[alignItems, setAlignItems] = useState('none')
+  const[alignSelf, setAlignSelf] = useState('none')
 
   const handleQuantity = (newValue) => {
     setQuantity(newValue)
@@ -39,6 +41,14 @@ const Form = () => {
 
   const handleAlignItems = (newValue) => {
     setAlignItems(newValue)
+  }
+
+  const handleAlignSelf = (newValue) => {
+    setAlignSelf(newValue)
+  }
+
+  const handleSelectedBlock = (newValue) => {
+    setSelectedBlock(newValue)
   }
 
   return (
@@ -83,13 +93,17 @@ const Form = () => {
           label="Align-items"
           cols={1}
           onChangeAlignItems={handleAlignItems}
-          options={["Baseline", "Center", "Start", "End", "Space-between", "Space-around", "Stretch"]}
+          options={["None", "Baseline", "Center", "Flex-start", "Flex-end", "Initial", "Inherit", "Stretch"]}
         />
         <Select
           id="align-self"
           label="Align-self"
+          quantity={quantity}
+          onChangeAlignSelf={handleAlignSelf}
+          onChangeSelectedBlock={handleSelectedBlock}
+          selectedBlock={selectedBlock}
           cols={1}
-          options={["Baseline", "Center", "Start", "End", "Space-between", "Space-around", "Stretch"]}
+          options={["None", "Auto", "Center", "Flex-start", "Flex-end", "Baseline", "Initial", "Stretch"]}
         />
 
         <Quantity
@@ -109,7 +123,9 @@ const Form = () => {
         justifyContent={justifyContent}
         alignContent={alignContent}
         alignItems={alignItems}
+        alignSelf={alignSelf}
 
+        selectedBlock={selectedBlock}
         quantity={quantity}
       />
     </div>

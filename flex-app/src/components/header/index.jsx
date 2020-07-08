@@ -21,7 +21,7 @@ const Header = () => {
         <Logo />
 
         <div className="flex items-center hidden sm:block">
-          <a href="/" className="text-white text-normal hover:text-white mr-4">
+          <a href="/about" className="text-white text-normal hover:text-white mr-4">
             Sobre
           </a>
           <a

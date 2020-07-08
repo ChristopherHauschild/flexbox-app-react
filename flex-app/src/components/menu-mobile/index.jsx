@@ -4,7 +4,7 @@ const MenuMobile = () => {
   return (
     <div className="flex flex-col mt-4 items-center w-full h-screen">
       <div className="text-2xl mt-48 mb-6 text-white">
-        <a href='/'>
+        <a href='/about'>
           Sobre
         </a>
       </div>

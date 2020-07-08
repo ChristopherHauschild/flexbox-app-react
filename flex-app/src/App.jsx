@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './components/header';
-import Main from './main';
+import Routes from './routes';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className='flex flex-col h-screen'>
       <Header />
       <div className='flex h-full box-border mb-auto bg-gray-100'>
-        <Main />
+        <Routes />
       </div>
       <Footer />
     </div>
