@@ -7,7 +7,7 @@ desenvolvimento da interface da aplicação, se deu pelo desejo de me aprimorar 
 </p> <br /> <br />
 
 <div align="center">
-  <img src="" width="900px" />
+  <img src="https://github.com/ChristopherHauschild/flexbox-app-react/blob/master/fxapp.gif?raw=true" width="900px" />
 </div>
 
 ## Tecnologias utilizadas: :computer:
@@ -24,7 +24,7 @@ Realize o download ou clone do repositório na sua máquina. Na pasta raíz, rod
 
 Após, rode o comando `yarn start` ou `npm start` para ver a aplicação em execução em `http://localhost:3000`. <br /> <br />
 
-#### Critícas e sugestões são sempre bem-vindas =).
+#### Critícas e/ou sugestões são sempre bem-vindas =).
 
 <hr>
 
